@@ -162,6 +162,10 @@
   .disclaimer-sec{
     padding: 30px 0;
   }
+  .banner h1 b {
+    display: block;
+    font-size: 35px;
+}
 }
 
 

@@ -143,6 +143,11 @@ header {
   position: relative;
   z-index: 1;
   background-repeat: no-repeat;
+  padding: 0 10px;
+}
+.banner h1 b {
+  display: block;
+  font-size: 44px;
 }
 
 .nav-title a img {
@@ -361,7 +366,10 @@ footer .row {
   margin-bottom:30px
   }
 
-
+/**europa**/
+.banner.sub-banner {
+  height: 300px;
+}
 
 
 
