@@ -5,7 +5,7 @@
 }
 
 @media screen and (max-width:1024px) {
-  .cookie-content {
+  .cookie-text {
     width: 100%;
     padding-right: 10px;
     text-align: center;
@@ -17,7 +17,7 @@
     text-align: center;
   }
 
-  .cookie-content p {
+  .cookie-text p {
     font-size: 14px;
   }
 
@@ -173,11 +173,20 @@
 @media only screen and (max-width: 575px) {
 
   .heading {
-    font-size: 28px;
+    font-size: 26px;
     margin-bottom: 30px;
   }
 
-  .section {
+  .p-80 {
     padding: 30px 0;
+  }
+  .casino-content{
+    max-width: 95%;
+  }
+  h3{
+    font-size: 24px;
+  }
+  .banner-btm-txt{
+    margin:0 0 30px;
   }
 }

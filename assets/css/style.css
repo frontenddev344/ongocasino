@@ -145,6 +145,7 @@ header {
   background-repeat: no-repeat;
   padding: 0 10px;
 }
+
 .banner h1 b {
   display: block;
   font-size: 44px;
@@ -338,6 +339,7 @@ footer .row {
   padding-right: 10px;
   color: #fff;
 }
+
 /***disclaimer-sec**/
 .disclaimer-sec {
   clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 100% 100%, 0 100%, 0% 80%, 0% 20%);
@@ -346,10 +348,12 @@ footer .row {
   padding: 60px 0;
   text-align: center;
 }
-.disclaimer-sec h2{
+
+.disclaimer-sec h2 {
   color: #fff;
 }
-.disclaimer-sec p{
+
+.disclaimer-sec p {
   color: #fff;
   font-size: 18px;
   margin-bottom: 0;
@@ -361,16 +365,49 @@ footer .row {
   height: 100%;
   padding: 20px;
   border-left: 10px solid var(--green);
-  }
-  .whyus .row>div{
-  margin-bottom:30px
-  }
+}
+
+.whyus .row>div {
+  margin-bottom: 30px
+}
 
 /**europa**/
 .banner.sub-banner {
   height: 300px;
 }
+/**/
+.casino-inner img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
 
+.top-casino .row>div {
+  margin-bottom: 30px
+}
+.casino-content a {
+  width: 100%;
+  text-align: center;
+  background:transparent;
+  color: var(--secondary-color);
+  font-size: 20px;
+}
+
+.casino-content {
+  padding: 30px 20px;
+  margin: -73px auto 0;
+  width: 100%;
+  max-width: 80%;
+  background: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 2;
+  min-height: 300px;
+}
+.casino-inner {
+  height: 100%;
+}
 
 
 
@@ -446,6 +483,7 @@ footer .row {
   z-index: 1;
   background-repeat: no-repeat;
 }
+
 /* 
 contact us */
 
@@ -500,4 +538,3 @@ label {
   position: relative;
   z-index: 1;
 }
-
