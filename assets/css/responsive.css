@@ -116,7 +116,9 @@
   .list-box {
     max-width: 100%;
   }
-
+  .form-sec form{
+    max-width: 100%;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -188,5 +190,8 @@
   }
   .banner-btm-txt{
     margin:0 0 30px;
+  }
+  .form-sec form input.button {
+    width: 100% !important;
   }
 }
