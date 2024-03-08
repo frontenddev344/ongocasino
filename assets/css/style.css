@@ -640,13 +640,14 @@ label {
   object-fit: cover;
 }
 
- .card-row {
+.card-row {
   max-width: 85%;
   background: linear-gradient(109deg, #b99d754a, transparent);
   overflow: hidden;
   margin: 0 auto;
 }
-.card-row-container .card-row:not(:last-child){
+
+.card-row-container .card-row:not(:last-child) {
   margin: 0 auto 60px;
 }
 
@@ -682,3 +683,109 @@ label {
 .card-row-text {
   padding: 10px;
 }
+
+
+/*privacy-policy start*/
+.privacy__section .banner__text h1 , .terms__section .banner__text h1 {
+  color:var(--secondary-color);
+}
+.privacy__section {
+  position: relative;
+  height: 350px;
+  background-image: url(../img/privacybannner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  margin-top: 0;
+  isolation: isolate;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+
+}
+
+.privacy__section::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  z-index: -1;
+}
+
+.privacy-policy {
+  padding: 40px 0;
+
+}
+
+.privacy-policy .content-wrap li {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: normal;
+  color: black;
+  padding-bottom: 8px;
+}
+
+.terms .content-wrap li {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  color: black;
+  font-family: 'Jost';
+  padding-bottom: 8px;
+}
+
+.content-wrap h4 {
+  color: var(--green);
+  font-size: 21px;
+  margin: 20px 0;
+}
+
+.content-wrap p {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.content-wrap ul {
+  padding: 0;
+}
+
+/*privacy-policy end*/
+
+/*terms-conditon start*/
+.terms__section {
+  position: relative;
+  height: 350px;
+  background-image:url(../img/termsbanner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  margin-top: 0;
+  isolation: isolate;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.terms__section::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  z-index: -1;
+
+}
+
+.terms {
+  padding: 40px 0;
+
+}
+
+/*terms-conditon-end/
