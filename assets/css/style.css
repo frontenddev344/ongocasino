@@ -684,11 +684,31 @@ label {
   padding: 10px;
 }
 
+/**newzeeland*/
+.niew-img img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.niew-txt {
+  padding: 20px;
+  border: 2px solid var(--secondary-color);
+  border-top: 0;
+  border-bottom-width: thick;
+}
+
+.niew-col {
+  margin-bottom: 50px;
+  height:100%;
+}
 
 /*privacy-policy start*/
-.privacy__section .banner__text h1 , .terms__section .banner__text h1 {
-  color:var(--secondary-color);
+.privacy__section .banner__text h1,
+.terms__section .banner__text h1 {
+  color: #fff;
 }
+
 .privacy__section {
   position: relative;
   height: 350px;
@@ -742,6 +762,9 @@ label {
   color: var(--green);
   font-size: 21px;
   margin: 20px 0;
+  border-bottom: 1px solid var(--secondary-color);
+  display: inline-block;
+  padding-bottom: 5px;
 }
 
 .content-wrap p {
@@ -759,7 +782,7 @@ label {
 .terms__section {
   position: relative;
   height: 350px;
-  background-image:url(../img/termsbanner.jpg);
+  background-image: url(../img/termsbanner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

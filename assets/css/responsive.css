@@ -82,10 +82,9 @@
   }
 
   .nav>#nav-check:checked~.nav-list {
-    height: calc(70vh - 0px);
+    height: 500px;
     margin-top: -3px;
-  }
-
+}
   .nav>.nav-header {
     padding-left: 0;
   }
